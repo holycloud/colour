@@ -684,7 +684,7 @@ SPECTRAL_TO_XYZ_METHODS = CaseInsensitiveMapping({
     'ASTM E308-15': spectral_to_XYZ_ASTME30815,
     'Integration': spectral_to_XYZ_integration
 })
-"""
+SPECTRAL_TO_XYZ_METHODS.__doc__ = """
 Supported spectral power distribution to *CIE XYZ* tristimulus values
 conversion methods
 

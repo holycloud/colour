@@ -13,10 +13,6 @@ API but will still be a good introduction.
 
 .. code:: python
 
-    %matplotlib inline
-
-.. code:: python
-
     import colour
     from colour.plotting import *
 
